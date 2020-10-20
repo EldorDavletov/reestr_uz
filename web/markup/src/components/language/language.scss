@@ -1,0 +1,18 @@
+.language{
+  $_: '.language';
+  &__menu{}
+  &--header{
+    #{$_}__toggle{
+      color: inherit;
+      border-color: currentColor;
+    }
+    #{$_}__toggle-ripple{
+      @include states-base-color(white);
+      &::before{
+        opacity: .1;
+      }
+    }
+  }
+}
+
+@import './language.responsive';

@@ -1,0 +1,22 @@
+.mdc-button{
+  $_: ".mdc-button";
+  &__ripple{
+  }
+  &--full-width{
+    width: 100%;
+  }
+  &--dark{
+    @include mdc-button-ink-color($mdc-theme-on-surface);
+    #{$_}__ripple{
+      @include states-base-color($mdc-theme-on-surface);
+    }
+  }
+  &--danger{
+    @include mdc-button-ink-color($mdc-theme-error);
+    #{$_}__ripple{
+      @include states-base-color($mdc-theme-error);
+    }
+  }
+}
+
+@debug $mdc-theme-on-surface;

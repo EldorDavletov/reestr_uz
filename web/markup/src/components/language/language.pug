@@ -1,0 +1,7 @@
+mixin language(mod)
+  div(class=!mod ? 'language' : 'language' + ' language--' + mod)
+    button.language__toggle.mdc-button.btn
+      div.language__toggle-ripple.mdc-button__ripple
+      +icon('translate', 'mdc-button__icon btn__icon')
+      span.language__selected.mdc-button__label Русский
+      +icon('chevron_left', 'icon--bottom mdc-button__icon btn__icon')

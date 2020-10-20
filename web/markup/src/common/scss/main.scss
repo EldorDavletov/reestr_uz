@@ -1,0 +1,21 @@
+@import "normalize.css/normalize";
+@import "./mdc.scss";
+@import './themes';
+@import './vars';
+
+@import './mixins/theme';
+
+// components
+@import '../../components/ui/ui';
+@import '../../components/layout/layout';
+@import '../../components/header/header';
+@import '../../components/sub-header/sub-header';
+@import '../../components/logo/logo';
+@import '../../components/language/language';
+@import '../../components/user/user';
+@import '../../components/password/password';
+
+body{
+    @include mdc-typography(body2);
+    @include mdc-theme-property(background, $mdc-theme-background);
+}

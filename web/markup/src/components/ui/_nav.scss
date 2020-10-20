@@ -1,0 +1,12 @@
+.nav{
+  $_: '.nav';
+  &--cards{
+    @include mdc-shape-radius($mdc-shape-small-component-radius);
+    @include mdc-theme-property(background, $mdc-theme-surface);
+    @include mdc-elevation(2);
+  }
+  &--project{
+    margin-top: -24px;
+    margin-bottom: 24px;
+  }
+}

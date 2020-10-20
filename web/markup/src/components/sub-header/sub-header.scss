@@ -1,0 +1,17 @@
+.sub-header{
+  $_: '.sub-header';
+  color: $mdc-theme-on-primary;
+  background-color: rgba($mdc-theme-primary, .85);
+  &__content{
+    padding: 4*$grid-gutter-width 2*$grid-gutter-width;
+  }
+  &__title{
+    @include mdc-typography(headline6);
+  }
+  &__text{
+    margin-top: $grid-gutter-width;
+    @include mdc-typography(body1);
+  }
+}
+
+@import './sub-header.responsive';

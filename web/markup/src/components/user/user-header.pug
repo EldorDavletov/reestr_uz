@@ -1,0 +1,10 @@
+mixin user-header(data)
+  div.user.user--header
+    div.user__content
+      div.user__ripple
+      div.user__media
+        +icon('account', 'user__media-icon')
+      div.user__body
+        div.user__title Гаврилов Д. Г.
+        div.user__text Оператор, Админ
+      +icon('chevron_left', 'icon--bottom user__toggle-icon')

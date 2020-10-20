@@ -1,0 +1,52 @@
+extends components/layout/layout-cpanel/layout-cpanel.pug
+//- Meta title and descriptions
+block meta
+  title Шаблон
+  meta(name="", content="")
+
+block main
+  div.page__sub-header
+    div.sub-header
+      div.sub-header__content
+        div.sub-header__body
+          div.sub-header__title Создать паспорт
+          div.sub-header__text Форма создания паспорта
+    div.navigation.navigation--horizontal
+      div.mdc-tab-bar(role='tablist')
+        div.mdc-tab-scroller
+          div.mdc-tab-scroller__scroll-area
+            div.mdc-tab-scroller__scroll-content
+              a.mdc-tab.mdc-tab--active(href="/project", role='tab' aria-selected='true' tabindex='0')
+                span.mdc-tab__content
+                  span.mdc-tab__text-label Проект
+                span.mdc-tab-indicator.mdc-tab-indicator--active
+                  span.mdc-tab-indicator__content.mdc-tab-indicator__content--underline
+                span.mdc-tab__ripple
+
+              a.mdc-tab(href="/password-add.html", role='tab' aria-selected='false' tabindex='0')
+                span.mdc-tab__content
+                  span.mdc-tab__text-label Паспорт
+                span.mdc-tab-indicator
+                  span.mdc-tab-indicator__content.mdc-tab-indicator__content--underline
+                span.mdc-tab__ripple
+
+              a.mdc-tab(href="/concept-add.html", role='tab' aria-selected='false' tabindex='0')
+                span.mdc-tab__content
+                  span.mdc-tab__text-label Концепция
+                span.mdc-tab-indicator
+                  span.mdc-tab-indicator__content.mdc-tab-indicator__content--underline
+                span.mdc-tab__ripple
+
+              a.mdc-tab(href="/technical-specifications-add.html", role='tab' aria-selected='false' tabindex='0')
+                span.mdc-tab__content
+                  span.mdc-tab__text-label Тех. задания
+                span.mdc-tab-indicator
+                  span.mdc-tab-indicator__content.mdc-tab-indicator__content--underline
+                span.mdc-tab__ripple
+
+              a.mdc-tab(href="/tender-add.html", role='tab' aria-selected='false' tabindex='0')
+                span.mdc-tab__content
+                  span.mdc-tab__text-label Тендорная док-ция
+                span.mdc-tab-indicator
+                  span.mdc-tab-indicator__content.mdc-tab-indicator__content--underline
+                span.mdc-tab__ripple

@@ -1,0 +1,13 @@
+.page{
+    $_: '.page';
+  &__container{
+    position: relative;
+    padding-left: $grid-gutter-width*2;
+    padding-right: $grid-gutter-width*2;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+  }
+}
+
+@import './layout-cpanel/layout-cpanel';

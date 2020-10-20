@@ -1,0 +1,34 @@
+include ../../ui/ui.pug
+include ../../head/head.pug
+include ../../foot/foot.pug
+include ../../logo/logo.pug
+include ../../language/language.pug
+include ../../user/user-header.pug
+include ../../header/header.pug
+
+doctype html
+html(class="no-js", lang="ru")
+  +head(data)
+  body.page.page--cpanel.page--open-sidebar
+    div.page__header
+      +header(data)
+    aside.page__sidebar.mdc-drawer.mdc-drawer--dismissible.mdc-top-app-bar--fixed-adjust
+      div.sidebar__content.mdc-drawer__content
+        //- .mdc-list
+        //-   a.mdc-list-item.mdc-list-item--activated(href='#' aria-current='page')
+        //-     span.mdc-list-item__ripple
+        //-     i.material-icons.mdc-list-item__graphic(aria-hidden='true') inbox
+        //-     span.mdc-list-item__text Inbox
+        //-   a.mdc-list-item(href='#')
+        //-     span.mdc-list-item__ripple
+        //-     i.material-icons.mdc-list-item__graphic(aria-hidden='true') send
+        //-     span.mdc-list-item__text Outgoing
+        //-   a.mdc-list-item(href='#')
+        //-     span.mdc-list-item__ripple
+        //-     i.material-icons.mdc-list-item__graphic(aria-hidden='true') drafts
+        //-     span.mdc-list-item__text Drafts
+    div.page__content.mdc-drawer-app-content.mdc-top-app-bar--fixed-adjust
+      main.page__main.main-content(id="pageMain")
+        block main
+
+    +foot(data)

@@ -1,0 +1,14 @@
+{
+  "name": "Checkout",
+  "icons": [{
+    "src": "favicon/64.png",
+    "sizes": "64x64"
+  }, {
+    "src": "favicon/192.png",
+    "sizes": "192x192"
+  }],
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "tomato",
+  "background_color": "cornflowerblue"
+}

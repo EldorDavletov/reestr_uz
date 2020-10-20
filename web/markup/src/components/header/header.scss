@@ -1,0 +1,62 @@
+.header {
+  $_: '.header';
+  &__row{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  &__col{
+    position: relative;
+    padding: 0 $grid-gutter-width;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  &__menu-toggle{
+    padding-left: 8px;
+    flex: 0 0 auto;
+    width: auto;
+    box-sizing: border-box;
+    & > .btn{
+      @include states-base-color(white);
+    }
+  }
+  &__menu-toggle,
+  &__notifications-toggle{
+    & > .btn{
+      @include states-base-color(white);
+    }
+  }
+  &__logo{
+    flex: 0 0 390px;
+    max-width: 390px;
+    box-sizing: border-box;
+  }
+  &__search{
+    flex: 1 1 auto;
+    width: auto;
+  }
+  &__language{
+    color: inherit;
+    border-color: currentColor;
+    & > .btn{
+      color: inherit;
+      border-color: currentColor;
+    }
+  }
+  &__notifications{
+  }
+  &__user{
+    flex: 0 0 240px;
+    max-width: 240px;
+    box-sizing: border-box;
+  }
+}
+
+@import '_header.responsive.scss';
+
+

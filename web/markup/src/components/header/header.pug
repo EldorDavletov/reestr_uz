@@ -1,0 +1,29 @@
+mixin header(data)
+  header.header.mdc-top-app-bar.app-bar(id="pageHeader")
+    div.header__row.header__row
+
+      div.header__menu-toggle.header__col
+        button(
+            id="menuToggle"
+            class="mdc-top-app-bar__navigation-icon mdc-icon-button"
+            data-mdc-ripple-is-unbounded
+            aria-label="Open navigation menu")
+          +icon('menu', 'btn__icon')
+
+      div.header__logo.header__col
+        +logo('header')
+
+      div.header__search.header__col
+        div.search
+
+      div.header__language.header__col
+        +language('header')
+
+      div.header__notifications.header__col
+        button(
+            class="mdc-icon-button btn"
+            data-mdc-ripple-is-unbounded)
+          +icon('notifications', 'btn__icon')
+
+      div.header__user.header__col
+        +user-header(data)
