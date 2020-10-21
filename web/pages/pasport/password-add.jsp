@@ -227,16 +227,16 @@
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Полное наименование проекта</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" id="name_proekt" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Полное наименование проекта</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined">
-                                    <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Краткое наименование проекта</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                    <input class="mdc-text-field__input" id="small_name_proekt" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Краткое наименование проекта</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                 </label>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined">
-                                    <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Юридический адрес организации</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                    <input class="mdc-text-field__input" id="address_org" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Юридический адрес организации</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                 </label>
                             </div>
                             <div class="form__fieldset">
@@ -249,21 +249,21 @@
                                                     <div class="form__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
                                                         <div class="form__group">
                                                             <label class="mdc-text-field mdc-text-field--outlined">
-                                                                <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">ФИО</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                                                <input class="mdc-text-field__input" id="fio_Responsible" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">ФИО</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                                             </label>
                                                         </div>
                                                     </div>
                                                     <div class="form__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
                                                         <div class="form__group">
                                                             <label class="mdc-text-field mdc-text-field--outlined">
-                                                                <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Номер телефона</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                                                <input class="mdc-text-field__input" id="phone_Responsible" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Номер телефона</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                                             </label>
                                                         </div>
                                                     </div>
                                                     <div class="form__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
                                                         <div class="form__group">
                                                             <label class="mdc-text-field mdc-text-field--outlined">
-                                                                <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Адрес электронной почты</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                                                <input class="mdc-text-field__input" id="address_Responsible" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Адрес электронной почты</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                                             </label>
                                                         </div>
                                                     </div>
@@ -288,21 +288,21 @@
                                                     <div class="form__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
                                                         <div class="form__group">
                                                             <label class="mdc-text-field mdc-text-field--outlined">
-                                                                <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">ФИО</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                                                <input class="mdc-text-field__input" id="fio_Responsible2" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">ФИО</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                                             </label>
                                                         </div>
                                                     </div>
                                                     <div class="form__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
                                                         <div class="form__group">
                                                             <label class="mdc-text-field mdc-text-field--outlined">
-                                                                <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Номер телефона</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                                                <input class="mdc-text-field__input" id="phone_Responsible2" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Номер телефона</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                                             </label>
                                                         </div>
                                                     </div>
                                                     <div class="form__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
                                                         <div class="form__group">
                                                             <label class="mdc-text-field mdc-text-field--outlined">
-                                                                <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Адрес электронной почты</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                                                <input class="mdc-text-field__input" id="address_Responsible2" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Адрес электронной почты</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                                             </label>
                                                         </div>
                                                     </div>
@@ -322,15 +322,15 @@
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Цель</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" id="goal" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Цель</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Задачи</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" id="tasks" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Задачи</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon">
-                                    <input class="mdc-text-field__input" type="text">
+                                    <input class="mdc-text-field__input" id="term" type="text">
                                     <svg class="icon icon-event mdc-text-field__icon mdc-text-field__icon--trailing">
                                         <use xlink:href="images/icons/sprite.svg#event"></use>
                                     </svg><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Срок реализации согласно поручению</span></span><span class="mdc-notched-outline__trailing"></span></span>
@@ -351,7 +351,7 @@
                                 </div>
                                 <div class="form__actions-cell form__actions-cell--cancel">
                                     <button class="btn mdc-button mdc-button--dark">
-                                        <div class="mdc-button__ripple"></div><span class="mdc-button__label">Отменить</span>
+                                        <div class="mdc-button__ripple" ></div><span class="mdc-button__label">Отменить</span>
                                     </button>
                                 </div>
                             </div>
