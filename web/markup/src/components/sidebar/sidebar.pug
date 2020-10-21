@@ -1,0 +1,24 @@
+mixin sidebar(data)
+  div.sidebar.sidebar--main-nav
+    div.sidebar__content
+      nav.sidebar__nav.nav.nav--sidebar.mdc-list
+        a.nav__link.mdc-list-item.mdc-list-item--activated(href='/documents.html' aria-current='page')
+          span.nav__ripple.mdc-list-item__ripple
+          +icon('inbox', 'nav__icon mdc-list-item__graphic')
+          span.nav__text.mdc-list-item__text Документы
+        a.nav__link.mdc-list-item(href='/information-systems.html')
+          span.nav__ripple.mdc-list-item__ripple
+          +icon('desktop_mac', 'nav__icon mdc-list-item__graphic')
+          span.nav__text.mdc-list-item__text Информ. системы
+        a.nav__link.mdc-list-item(href='/organizations.html')
+          span.nav__ripple.mdc-list-item__ripple
+          +icon('account_balance', 'nav__icon mdc-list-item__graphic')
+          span.nav__text.mdc-list-item__text Организации
+        a.nav__link.mdc-list-item(href='/users.html')
+          span.nav__ripple.mdc-list-item__ripple
+          +icon('account', 'nav__icon mdc-list-item__graphic')
+          span.nav__text.mdc-list-item__text Пользователи
+      div.sidebar__actions
+        a.btn.mdc-button.mdc-button--unelevated.mdc-button--full-width(href="/project-add.html")
+          div.mdc-button__ripple
+          span.mdc-button__label СОЗДАТЬ ПРОЕКТ

@@ -1,5 +1,10 @@
 .nav{
   $_: '.nav';
+  &--sidebar{
+    #{$_}__icon{
+      font-size: 24px;
+    }
+  }
   &--cards{
     @include mdc-shape-radius($mdc-shape-small-component-radius);
     @include mdc-theme-property(background, $mdc-theme-surface);

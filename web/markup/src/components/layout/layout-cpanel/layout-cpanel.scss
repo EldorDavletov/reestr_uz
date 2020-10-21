@@ -4,17 +4,21 @@
     display: flex;
     display: flex;
     height: 100vh;
-    .mdc-drawer-app-content {
+    #{$_}__main{
+      padding-top: 64px;
+    }
+    #{$_}__sidebar{
+      padding-top: 64px;
+    }
+    #{$_}__content{
       flex: auto;
       overflow: auto;
       position: relative;
       transition: margin-left .2s cubic-bezier(.4,0,.2,1);
     }
-
-    .main-content {
+    #{$_}__main{
       overflow: auto;
       height: 100%;
-
     }
 
     .app-bar {

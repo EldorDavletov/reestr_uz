@@ -12,24 +12,24 @@
     <title>Создать паспорт</title>
     <meta name="" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <link rel="manifest" href="/site.webmanifest"/>
-    <link rel="apple-touch-icon" href="icon.png"/>
+    <link rel="manifest" href="../../markup/build/site.webmanifest"/>
+    <link rel="apple-touch-icon" href="markup/build/icon.png"/>
     <meta name="theme-color" content="#fefefe"/>
     <!-- Place favicon.ico in the root directory-->
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico"/>
-    <link rel="shortcut icon" href="/favicon.ico"/>
-    <link rel="icon" href="favicon.png" sizes="16x16" type="image/png"/>
-    <link rel="icon" href="favicon.ico" sizes="16x16 32x32" type="image/vnd.microsoft.icon"/>
-    <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml"/>
-    <link rel="manifest" href="/site.webmanifest"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
-    <link rel="mask-icon" href="/favicon/mask.svg" color="red"/>
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="../../markup/build/favicon.ico"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="../../markup/build/favicon.ico"/>
+    <link rel="shortcut icon" href="../../markup/build/favicon.ico"/>
+    <link rel="icon" href="../../markup/build/favicon.png" sizes="16x16" type="image/png"/>
+    <link rel="icon" href="../../markup/build/favicon.ico" sizes="16x16 32x32" type="image/vnd.microsoft.icon"/>
+    <link rel="icon" href="../../markup/build/favicon.svg" sizes="any" type="image/svg+xml"/>
+    <link rel="manifest" href="../../markup/build/site.webmanifest"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../markup/build/favicon/apple-touch-icon.png"/>
+    <link rel="mask-icon" href="../../markup/build/favicon/mask.svg" color="red"/>
+    <link rel="mask-icon" href="../../markup/build/favicon/safari-pinned-tab.svg" color="#5bbad5"/>
     <meta name="msapplication-TileColor" content="#fefefe"/>
     <meta name="msapplication-config" content="/browserconfig.xml"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"/>
-    <link rel="stylesheet" href="markup/build/css/main.min.css"/>
+    <link rel="stylesheet" href="../../markup/build/css/main.min.css"/>
 </head>
 <body class="page page--cpanel page--open-sidebar">
 <div class="page__header">
@@ -92,10 +92,30 @@
         </div>
     </header>
 </div>
-<aside class="page__sidebar mdc-drawer mdc-drawer--dismissible mdc-top-app-bar--fixed-adjust">
-    <div class="sidebar__content mdc-drawer__content"></div>
+<aside class="page__sidebar mdc-drawer mdc-drawer--dismissible">
+    <div class="page__sidebar-content mdc-drawer__content">
+        <div class="sidebar sidebar--main-nav">
+            <div class="sidebar__content">
+                <nav class="sidebar__nav nav nav--sidebar mdc-list"><a class="nav__link mdc-list-item mdc-list-item--activated" href="/documents.html" aria-current="page"><span class="nav__ripple mdc-list-item__ripple"></span>
+                    <svg class="icon icon-inbox nav__icon mdc-list-item__graphic">
+                        <use xlink:href="images/icons/sprite.svg#inbox"></use>
+                    </svg><span class="nav__text mdc-list-item__text">Документы</span></a><a class="nav__link mdc-list-item" href="/information-systems.html"><span class="nav__ripple mdc-list-item__ripple"></span>
+                    <svg class="icon icon-desktop_mac nav__icon mdc-list-item__graphic">
+                        <use xlink:href="images/icons/sprite.svg#desktop_mac"></use>
+                    </svg><span class="nav__text mdc-list-item__text">Информ. системы</span></a><a class="nav__link mdc-list-item" href="/organizations.html"><span class="nav__ripple mdc-list-item__ripple"></span>
+                    <svg class="icon icon-account_balance nav__icon mdc-list-item__graphic">
+                        <use xlink:href="images/icons/sprite.svg#account_balance"></use>
+                    </svg><span class="nav__text mdc-list-item__text">Организации</span></a><a class="nav__link mdc-list-item" href="/users.html"><span class="nav__ripple mdc-list-item__ripple"></span>
+                    <svg class="icon icon-account nav__icon mdc-list-item__graphic">
+                        <use xlink:href="images/icons/sprite.svg#account"></use>
+                    </svg><span class="nav__text mdc-list-item__text">Пользователи</span></a></nav>
+                <div class="sidebar__actions"><a class="btn mdc-button mdc-button--unelevated mdc-button--full-width" href="/project-add.html">
+                    <div class="mdc-button__ripple"></div><span class="mdc-button__label">СОЗДАТЬ ПРОЕКТ</span></a></div>
+            </div>
+        </div>
+    </div>
 </aside>
-<div class="page__content mdc-drawer-app-content mdc-top-app-bar--fixed-adjust">
+<div class="page__content mdc-drawer-app-content">
     <main class="page__main main-content" id="pageMain">
         <div class="page__sub-header">
             <div class="sub-header">
@@ -113,7 +133,7 @@
                     <div class="mdc-tab-bar" role="tablist">
                         <div class="mdc-tab-scroller">
                             <div class="mdc-tab-scroller__scroll-area">
-                                <div class="mdc-tab-scroller__scroll-content"><a class="mdc-tab" href="/project" role="tab" aria-selected="false" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Проект</span></span><span class="mdc-tab-indicator"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a><a class="mdc-tab mdc-tab--active" href="password-add.jsp" role="tab" aria-selected="true" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Паспорт</span></span><span class="mdc-tab-indicator mdc-tab-indicator--active"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a><a class="mdc-tab" href="/concept-add.html" role="tab" aria-selected="false" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Концепция</span></span><span class="mdc-tab-indicator"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a><a class="mdc-tab" href="/technical-specifications-add.html" role="tab" aria-selected="false" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Тех. задания</span></span><span class="mdc-tab-indicator"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a><a class="mdc-tab" href="/tender-add.html" role="tab" aria-selected="false" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Тендорная док-ция</span></span><span class="mdc-tab-indicator"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a></div>
+                                <div class="mdc-tab-scroller__scroll-content"><a class="mdc-tab" href="/project" role="tab" aria-selected="false" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Проект</span></span><span class="mdc-tab-indicator"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a><a class="mdc-tab mdc-tab--active" href="/password-add.html" role="tab" aria-selected="true" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Паспорт</span></span><span class="mdc-tab-indicator mdc-tab-indicator--active"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a><a class="mdc-tab" href="/concept-add.html" role="tab" aria-selected="false" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Концепция</span></span><span class="mdc-tab-indicator"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a><a class="mdc-tab" href="/technical-specifications-add.html" role="tab" aria-selected="false" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Тех. задания</span></span><span class="mdc-tab-indicator"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a><a class="mdc-tab" href="/tender-add.html" role="tab" aria-selected="false" tabindex="0"><span class="mdc-tab__content"><span class="mdc-tab__text-label">Тендорная док-ция</span></span><span class="mdc-tab-indicator"><span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><span class="mdc-tab__ripple"></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -121,9 +141,56 @@
             </div>
             <div class="password-form">
                 <div class="password-form__content">
+                    <div class="password-form__stepper">
+                        <div class="stepper stepper--password-form">
+                            <div class="stepper__content">
+                                <div class="stepper__list"><a class="stepper__item stepper__item--visited" href="password-add.jsp" title="">
+                                    <div class="stepper__media">
+                                        <svg class="icon icon-done stepper__media-icon">
+                                            <use xlink:href="images/icons/sprite.svg#done"></use>
+                                        </svg>
+                                        <div class="stepper__media-text">1</div>
+                                    </div>
+                                    <div class="stepper__body">
+                                        <div class="stepper__title">Шаг 1</div>
+                                        <div class="stepper__text">Общие сведения</div>
+                                    </div></a><a class="stepper__item stepper__item--visited" href="password-add-step-2.jsp" title="">
+                                    <div class="stepper__media">
+                                        <svg class="icon icon-done stepper__media-icon">
+                                            <use xlink:href="images/icons/sprite.svg#done"></use>
+                                        </svg>
+                                        <div class="stepper__media-text">2</div>
+                                    </div>
+                                    <div class="stepper__body">
+                                        <div class="stepper__title">Шаг 2</div>
+                                        <div class="stepper__text">Сведения об&nbsp;основных технических свойствах</div>
+                                    </div></a><a class="stepper__item stepper__item--active" href="password-add-step-3.jsp" title="">
+                                    <div class="stepper__media">
+                                        <svg class="icon icon-done stepper__media-icon">
+                                            <use xlink:href="images/icons/sprite.svg#done"></use>
+                                        </svg>
+                                        <div class="stepper__media-text">3</div>
+                                    </div>
+                                    <div class="stepper__body">
+                                        <div class="stepper__title">Шаг 3</div>
+                                        <div class="stepper__text">Сведения о&nbsp;разработке, использовании и&nbsp;вывод из&nbsp;эксплуатации</div>
+                                    </div></a><a class="stepper__item" href="password-add-step-4.jsp" title="">
+                                    <div class="stepper__media">
+                                        <svg class="icon icon-done stepper__media-icon">
+                                            <use xlink:href="images/icons/sprite.svg#done"></use>
+                                        </svg>
+                                        <div class="stepper__media-text">4</div>
+                                    </div>
+                                    <div class="stepper__body">
+                                        <div class="stepper__title">Шаг 4</div>
+                                        <div class="stepper__text">Основные сведения о&nbsp;технических показателях серверных оборудований</div>
+                                    </div></a></div>
+                            </div>
+                        </div>
+                    </div>
                     <form class="form password-form__form" action="">
                         <div class="form__step form__step-1" id="passwordFormStep02">
-                            <div class="form__title">Заполните форму</div>
+                            <div class="form__title">Сведения о разработке, использовании и вывод из эксплуатации</div>
                             <div class="form__fieldset">
                                 <div class="form__title form__title--legend">Разработчик информационной системы</div>
                                 <div class="form__group">
@@ -293,6 +360,6 @@
         </div>
     </main>
 </div>
-<script src="markup/build/js/main.min.js"></script>
+<script src="../../markup/build/js/main.min.js"></script>
 </body>
 </html>

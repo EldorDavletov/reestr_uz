@@ -85,10 +85,30 @@
         </div>
       </header>
     </div>
-    <aside class="page__sidebar mdc-drawer mdc-drawer--dismissible mdc-top-app-bar--fixed-adjust">
-      <div class="sidebar__content mdc-drawer__content"></div>
+    <aside class="page__sidebar mdc-drawer mdc-drawer--dismissible">
+      <div class="page__sidebar-content mdc-drawer__content">
+        <div class="sidebar sidebar--main-nav">
+          <div class="sidebar__content">
+            <nav class="sidebar__nav nav nav--sidebar mdc-list"><a class="nav__link mdc-list-item mdc-list-item--activated" href="/documents.html" aria-current="page"><span class="nav__ripple mdc-list-item__ripple"></span>
+                <svg class="icon icon-inbox nav__icon mdc-list-item__graphic">
+                  <use xlink:href="images/icons/sprite.svg#inbox"></use>
+                </svg><span class="nav__text mdc-list-item__text">Документы</span></a><a class="nav__link mdc-list-item" href="/information-systems.html"><span class="nav__ripple mdc-list-item__ripple"></span>
+                <svg class="icon icon-desktop_mac nav__icon mdc-list-item__graphic">
+                  <use xlink:href="images/icons/sprite.svg#desktop_mac"></use>
+                </svg><span class="nav__text mdc-list-item__text">Информ. системы</span></a><a class="nav__link mdc-list-item" href="/organizations.html"><span class="nav__ripple mdc-list-item__ripple"></span>
+                <svg class="icon icon-account_balance nav__icon mdc-list-item__graphic">
+                  <use xlink:href="images/icons/sprite.svg#account_balance"></use>
+                </svg><span class="nav__text mdc-list-item__text">Организации</span></a><a class="nav__link mdc-list-item" href="/users.html"><span class="nav__ripple mdc-list-item__ripple"></span>
+                <svg class="icon icon-account nav__icon mdc-list-item__graphic">
+                  <use xlink:href="images/icons/sprite.svg#account"></use>
+                </svg><span class="nav__text mdc-list-item__text">Пользователи</span></a></nav>
+            <div class="sidebar__actions"><a class="btn mdc-button mdc-button--unelevated mdc-button--full-width" href="/project-add.html">
+                <div class="mdc-button__ripple"></div><span class="mdc-button__label">СОЗДАТЬ ПРОЕКТ</span></a></div>
+          </div>
+        </div>
+      </div>
     </aside>
-    <div class="page__content mdc-drawer-app-content mdc-top-app-bar--fixed-adjust">
+    <div class="page__content mdc-drawer-app-content">
       <main class="page__main main-content" id="pageMain">
         <div class="page__sub-header">
           <div class="sub-header">

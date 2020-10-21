@@ -47,7 +47,7 @@ var path = {
     icons: './build/images/icons',
     fonts: './build/fonts',
     separate: './build/separate',
-    misc: './build/misc',
+    misc: './build/',
   },
   src: {
     html: './src/*.pug',
@@ -57,7 +57,7 @@ var path = {
     icons: './src/common/assets/icons/*.svg',
     fonts: './src/common/fonts/*/*.*',
     separate: './src/common/separate/*/*.*',
-    misc: './src/mics/*',
+    misc: ['./src/mics/*', './src/mics/*/*.*'],
   },
   watch: {
     html: ['./src/*.pug', './src/components/**/*.pug', './src/components/**/**/*.pug'],
@@ -67,7 +67,7 @@ var path = {
     icons: './src/common/assets/icons/*.svg',
     fonts: './src/common/fonts/*/*.*',
     separate: './src/common/separate/*/*.*',
-    misc: './src/mics/*.*',
+    misc: './src/mics/*',
   },
 };
 
