@@ -12,20 +12,20 @@
   <title>Шаблон</title>
   <meta name="" content=""/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-  <link rel="manifest" href="/site.webmanifest"/>
-  <link rel="apple-touch-icon" href="icon.png"/>
+  <link rel="manifest" href="markup/build/site.webmanifest"/>
+  <link rel="apple-touch-icon" href="markup/build/icon.png"/>
   <meta name="theme-color" content="#fefefe"/>
   <!-- Place favicon.ico in the root directory-->
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico"/>
-  <link rel="shortcut icon" href="/favicon.ico"/>
-  <link rel="icon" href="favicon.png" sizes="16x16" type="image/png"/>
-  <link rel="icon" href="favicon.ico" sizes="16x16 32x32" type="image/vnd.microsoft.icon"/>
-  <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml"/>
-  <link rel="manifest" href="/site.webmanifest"/>
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png"/>
-  <link rel="mask-icon" href="/favicon/mask.svg" color="red"/>
-  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="markup/build/favicon.ico"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="markup/build/favicon.ico"/>
+  <link rel="shortcut icon" href="markup/build/favicon.ico"/>
+  <link rel="icon" href="markup/build/favicon.png" sizes="16x16" type="image/png"/>
+  <link rel="icon" href="markup/build/favicon.ico" sizes="16x16 32x32" type="image/vnd.microsoft.icon"/>
+  <link rel="icon" href="markup/build/favicon.svg" sizes="any" type="image/svg+xml"/>
+  <link rel="manifest" href="markup/build/site.webmanifest"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="markup/build/favicon/apple-touch-icon.png"/>
+  <link rel="mask-icon" href="markup/build/favicon/mask.svg" color="red"/>
+  <link rel="mask-icon" href="markup/build/favicon/safari-pinned-tab.svg" color="#5bbad5"/>
   <meta name="msapplication-TileColor" content="#fefefe"/>
   <meta name="msapplication-config" content="/browserconfig.xml"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"/>
@@ -118,6 +118,6 @@
     </div>
   </main>
 </div>
-<script src="js/main.min.js"></script>
+<script src="markup/build/js/main.min.js"></script>
 </body>
 </html>
