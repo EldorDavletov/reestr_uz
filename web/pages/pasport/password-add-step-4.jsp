@@ -338,7 +338,7 @@
                                 </div>
                             </div>
                             <div class="form__fieldset">
-                                <div class="form__title form__title--legend">Система бесперебойного питания</div>
+                                <div class="form__title form__title--legend">Система бесперебойного питания.</div>
                                 <div class="form__grid mdc-layout-grid">
                                     <div class="form__row mdc-layout-grid__inner">
                                         <div class="form__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
