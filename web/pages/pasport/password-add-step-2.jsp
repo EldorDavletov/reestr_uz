@@ -193,39 +193,39 @@
                             <div class="form__title">Сведения об основных технических свойствах</div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Разработчик проектно-сметной документации</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label" id="doc_developer"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Разработчик проектно-сметной документации</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                                 <div class="mdc-text-field-helper-line">
                                     <div class="mdc-text-field-helper-text" aria-hidden="true">Наименование подтверждающего документа и разработчика</div>
                                 </div>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Перечень услуг</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label" id="usluga"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Перечень услуг</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                                 <div class="mdc-text-field-helper-line">
                                     <div class="mdc-text-field-helper-text" aria-hidden="true">Перечень услуг, переводимых в электронную форму (если имеется)</div>
                                 </div>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Основные подсистемы информационной системы</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label" id="subsystems"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Основные подсистемы информационной системы</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Взаимодействие с другими информационными системами</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label" id="ref_data"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Взаимодействие с другими информационными системами</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                                 <div class="mdc-text-field-helper-line">
                                     <div class="mdc-text-field-helper-text" aria-hidden="true">Если имеется, наименование госоргана, информационной системы, передаваемых данных</div>
                                 </div>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Применяемые справочники и классификаторы</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label" id="klass"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Применяемые справочники и классификаторы</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                                 <div class="mdc-text-field-helper-line">
                                     <div class="mdc-text-field-helper-text" aria-hidden="true">Указывается представляющий госорган</div>
                                 </div>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Единый идентификатор</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label" id="uniq_iden"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Единый идентификатор</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                                 <div class="mdc-text-field-helper-line">
                                     <div class="mdc-text-field-helper-text" aria-hidden="true">Единый идентификатор используемый в базе данных</div>
                                 </div>
@@ -237,13 +237,13 @@
                                         <div class="form__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-8">
                                             <div class="form__group">
                                                 <label class="mdc-text-field mdc-text-field--outlined">
-                                                    <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Подтверждающий документ</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                                    <input class="mdc-text-field__input" aria-label="Label" id="doc_confirm"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Подтверждающий документ</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="form__cell mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
                                             <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon">
-                                                <input class="mdc-text-field__input" type="text">
+                                                <input class="mdc-text-field__input" type="text" id="data_doc_confirm">
                                                 <svg class="icon icon-event mdc-text-field__icon mdc-text-field__icon--trailing">
                                                     <use xlink:href="images/icons/sprite.svg#event"></use>
                                                 </svg><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Дата экспертизы</span></span><span class="mdc-notched-outline__trailing"></span></span>

@@ -227,16 +227,16 @@
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" id="name_proekt" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Полное наименование проекта</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" id="full_name" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Полное наименование проекта</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined">
-                                    <input class="mdc-text-field__input" id="small_name_proekt" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Краткое наименование проекта</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                    <input class="mdc-text-field__input" id="short_name" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Краткое наименование проекта</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                 </label>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined">
-                                    <input class="mdc-text-field__input" id="address_org" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Юридический адрес организации</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                    <input class="mdc-text-field__input" id="adres" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Юридический адрес организации</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                 </label>
                             </div>
                             <div class="form__fieldset">
@@ -322,7 +322,7 @@
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" id="goal" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Цель</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" id="target" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Цель</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
@@ -330,7 +330,7 @@
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon">
-                                    <input class="mdc-text-field__input" id="term" type="text">
+                                    <input class="mdc-text-field__input" id="prj_end_date" type="text">
                                     <svg class="icon icon-event mdc-text-field__icon mdc-text-field__icon--trailing">
                                         <use xlink:href="images/icons/sprite.svg#event"></use>
                                     </svg><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Срок реализации согласно поручению</span></span><span class="mdc-notched-outline__trailing"></span></span>

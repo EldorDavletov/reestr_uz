@@ -193,7 +193,7 @@
                             <div class="form__title">Основные сведения о технических показателях серверных оборудований</div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined">
-                                    <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Размещение серверного оборудования</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                    <input class="mdc-text-field__input" aria-label="Label" id="server_adres"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Размещение серверного оборудования</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                 </label>
                                 <div class="mdc-text-field-helper-line">
                                     <div class="mdc-text-field-helper-text" aria-hidden="true">Введите адрес</div>
@@ -201,7 +201,7 @@
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"><span class="mdc-text-field__resizer">
-                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Серверная мощность</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
+                        <textarea class="mdc-text-field__input" rows="2" cols="40" aria-label="Label" id="server"></textarea></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Серверная мощность</span></span><span class="mdc-notched-outline__trailing"></span></span></label>
                             </div>
                             <div class="form__fieldset">
                                 <div class="form__title form__title--legend">Операционная система</div>
@@ -216,7 +216,7 @@
                                     <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
                                   </svg></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label" id="outlined-select-label">Наименование</span></span><span class="mdc-notched-outline__trailing"></span></span></div>
                                                     <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth" role="listbox">
-                                                        <ul class="mdc-list">
+                                                        <ul class="mdc-list" id="serv_os_name">
                                                             <li class="mdc-list-item" data-value="1"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">Выберите наименование 1</span></li>
                                                             <li class="mdc-list-item" data-value="2"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите наименование 2</span></li>
                                                             <li class="mdc-list-item" data-value="3"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите наименование 3</span></li>
@@ -234,7 +234,7 @@
                                     <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
                                   </svg></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label" id="outlined-select-label">Вид</span></span><span class="mdc-notched-outline__trailing"></span></span></div>
                                                     <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth" role="listbox">
-                                                        <ul class="mdc-list">
+                                                        <ul class="mdc-list" id="serv_os_type">
                                                             <li class="mdc-list-item" data-value="1"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">Выберите вид 1</span></li>
                                                             <li class="mdc-list-item" data-value="2"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите вид 2</span></li>
                                                             <li class="mdc-list-item" data-value="3"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите вид 3</span></li>
@@ -259,7 +259,7 @@
                                     <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
                                   </svg></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label" id="outlined-select-label">Наименование</span></span><span class="mdc-notched-outline__trailing"></span></span></div>
                                                     <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth" role="listbox">
-                                                        <ul class="mdc-list">
+                                                        <ul class="mdc-list" id="subd_name">
                                                             <li class="mdc-list-item" data-value="1"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">Выберите наименование 1</span></li>
                                                             <li class="mdc-list-item" data-value="2"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите наименование 2</span></li>
                                                             <li class="mdc-list-item" data-value="3"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите наименование 3</span></li>
@@ -277,7 +277,7 @@
                                     <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
                                   </svg></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label" id="outlined-select-label">Вид</span></span><span class="mdc-notched-outline__trailing"></span></span></div>
                                                     <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth" role="listbox">
-                                                        <ul class="mdc-list">
+                                                        <ul class="mdc-list" id="subd_type">
                                                             <li class="mdc-list-item" data-value="1"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">Выберите вид 1</span></li>
                                                             <li class="mdc-list-item" data-value="2"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите вид 2</span></li>
                                                             <li class="mdc-list-item" data-value="3"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите вид 3</span></li>
@@ -291,7 +291,7 @@
                             </div>
                             <div class="form__group">
                                 <label class="mdc-text-field mdc-text-field--outlined">
-                                    <input class="mdc-text-field__input" aria-label="Label"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Наименование прикладного программного обеспечения</span></span><span class="mdc-notched-outline__trailing"></span></span>
+                                    <input class="mdc-text-field__input" aria-label="Label" id="app"><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label">Наименование прикладного программного обеспечения</span></span><span class="mdc-notched-outline__trailing"></span></span>
                                 </label>
                             </div>
                             <div class="form__fieldset">
@@ -307,7 +307,7 @@
                                     <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
                                   </svg></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label" id="outlined-select-label">Наименование</span></span><span class="mdc-notched-outline__trailing"></span></span></div>
                                                     <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth" role="listbox">
-                                                        <ul class="mdc-list">
+                                                        <ul class="mdc-list" id="safe_name">
                                                             <li class="mdc-list-item" data-value="1"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">Выберите наименование 1</span></li>
                                                             <li class="mdc-list-item" data-value="2"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите наименование 2</span></li>
                                                             <li class="mdc-list-item" data-value="3"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите наименование 3</span></li>
@@ -325,7 +325,7 @@
                                     <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
                                   </svg></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label" id="outlined-select-label">Вид</span></span><span class="mdc-notched-outline__trailing"></span></span></div>
                                                     <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth" role="listbox">
-                                                        <ul class="mdc-list">
+                                                        <ul class="mdc-list" id="safe_type">
                                                             <li class="mdc-list-item" data-value="1"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">Выберите вид 1</span></li>
                                                             <li class="mdc-list-item" data-value="2"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите вид 2</span></li>
                                                             <li class="mdc-list-item" data-value="3"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите вид 3</span></li>
@@ -350,7 +350,7 @@
                                     <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
                                   </svg></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label" id="outlined-select-label">Наименование</span></span><span class="mdc-notched-outline__trailing"></span></span></div>
                                                     <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth" role="listbox">
-                                                        <ul class="mdc-list">
+                                                        <ul class="mdc-list" id="ups_name">
                                                             <li class="mdc-list-item" data-value="1"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">Выберите наименование 1</span></li>
                                                             <li class="mdc-list-item" data-value="2"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите наименование 2</span></li>
                                                             <li class="mdc-list-item" data-value="3"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите наименование 3</span></li>
@@ -368,7 +368,7 @@
                                     <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
                                   </svg></span><span class="mdc-notched-outline"><span class="mdc-notched-outline__leading"></span><span class="mdc-notched-outline__notch"><span class="mdc-floating-label" id="outlined-select-label">Вид</span></span><span class="mdc-notched-outline__trailing"></span></span></div>
                                                     <div class="mdc-select__menu mdc-menu mdc-menu-surface mdc-menu-surface--fullwidth" role="listbox">
-                                                        <ul class="mdc-list">
+                                                        <ul class="mdc-list" id="ups_type">
                                                             <li class="mdc-list-item" data-value="1"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text">Выберите вид 1</span></li>
                                                             <li class="mdc-list-item" data-value="2"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите вид 2</span></li>
                                                             <li class="mdc-list-item" data-value="3"><span class="mdc-list-item__ripple"></span><span class="mdc-list-item__text"> Выберите вид 3</span></li>
