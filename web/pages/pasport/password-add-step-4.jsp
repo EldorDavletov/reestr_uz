@@ -389,7 +389,7 @@
                                         <use xlink:href="images/icons/sprite.svg#chevron_left"></use>
                                     </svg><span class="mdc-button__label">Назад</span></a></div>
                                 <div class="form__actions-cell form__actions-cell--save">
-                                    <button class="btn mdc-button mdc-button--unelevated">
+                                    <button class="btn mdc-button mdc-button--unelevated" onclick="">
                                         <div class="mdc-button__ripple"></div><span class="mdc-button__label">Сохранить</span>
                                     </button>
                                 </div>
